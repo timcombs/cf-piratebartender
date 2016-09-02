@@ -67,7 +67,7 @@ UI to display bartender questions and accept user answers
         coffee = strong, scotch = strong, vodka = weak, tea = weak
       - more or less intoxicating drinks?
         - glug = stiff, slug = normal and splash = weak??
-  - so each 
+  - so each
 
 
 
