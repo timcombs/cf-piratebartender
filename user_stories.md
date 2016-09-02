@@ -4,28 +4,59 @@ The basic requirements
 Create questions and ingredients objects
 The bartender should ask questions that determine your tastes and then identify ingredients to suit those tastes. If you like you can use our examples below, but feel free to customize!
 
+***********************************************************************
+Create a bartender app
+  - Create questions objects
+  - Create ingredients objects
+
+Bartender Constructor function
+  - bartender asks questions
+  - questions determine tastes
+  - tastes determine ingredients to suit tastes
+  - createDrink() method
+    - takes preferences object
+    - creates newDrink object
+  - create displayDrink() method
+    - puts info in the UI
+
+Ingredient Constructor function
+  -
+  -
+  -
+
+Pantry Constructor function
+  - contains ingredients
+  -
+
+Question Constructor function
+  - contains taste questions that bartender asks
+  -
+
+newDrink Constructor function
+  - fetches random ingredients from pantry object that match user preferences
+
+UI to display bartender questions and accept user answers
+  - Create preferences object to record user answers
+  -
+
+
+STRETCH GOALS?
+*************************************************************************
+
 Example questions:
 
 - Do ye like yer drinks strong?
-
 - Do ye like it with a salty tang?
-
 - Are ye a lubber who likes it bitter?
-
 - Would ye like a bit of sweetness with yer poison?
-
 - Are ye one for a fruity finish?
 
 Example ingredients:
 
 - Strong ingredients: Glug of rum, slug of whisky, splash of gin
-
 - Salty ingredients: Olive on a stick, salt-dusted rim, rasher of bacon
-
 - Bitter ingredients: Shake of bitters, splash of tonic, twist of lemon peel
-
 - Sweet ingredients: Sugar cube, spoonful of honey, splash of cola
-
 - Fruity ingredients: Slice of orange, dash of cassis, cherry on top
 
 Create constructor functions for questions, ingredients, and the pantry (which will contain all of the available ingredients). Then use these constructors to create objects representing the bartenders questions, ingredients and pantry.
