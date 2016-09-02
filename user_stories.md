@@ -19,7 +19,7 @@ Bartender Constructor function
   - create displayDrink() method
     - puts info in the UI
 
-Ingredient Constructor function
+Ingredients Constructor function
   -
   -
   -
@@ -32,7 +32,7 @@ Question Constructor function
   - contains taste questions that bartender asks
   -
 
-newDrink Constructor function
+Drink Constructor function
   - fetches random ingredients from pantry object that match user preferences
 
 UI to display bartender questions and accept user answers
