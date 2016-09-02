@@ -1,10 +1,11 @@
+# Objects, Prototypes, UI
 To demonstrate your mastery of objects, you'll be creating a new app which specializes in bartending. Pirate bartending. The bartender will invent a new and delicious cocktail for you based upon your answers to some simple questions.
 
-The basic requirements
+# The basic requirements
 Create questions and ingredients objects
 The bartender should ask questions that determine your tastes and then identify ingredients to suit those tastes. If you like you can use our examples below, but feel free to customize!
 
-***********************************************************************
+***
 Create a bartender app
   - Create questions objects
   - Create ingredients objects
@@ -15,7 +16,7 @@ Bartender Constructor function
   - tastes determine ingredients to suit tastes
   - createDrink() method
     - takes preferences object
-    - creates newDrink object
+    - creates Drink object
   - create displayDrink() method
     - puts info in the UI
 
@@ -40,8 +41,42 @@ UI to display bartender questions and accept user answers
   -
 
 
-STRETCH GOALS?
-*************************************************************************
+***
+
+### Possible ingredient schema:
+  - alcoholic (intoxicants)
+    - vodka, gin, rum, whiskey, scotch, tequila,
+  - non-alcoholic (refreshers)
+    - ginger ale, tea, coffee, cola, 7up, lemonade, kombucha
+  - alcoholic flavorings (liqueurs)
+    - cassis, blue curacao, triple sec,
+  - non alcoholic flavorings (syrups, bitters)
+    - simple syrup, bitters, grenadine
+  - rim treatments
+    - sugar, salt, gunpowder
+  - garnishes
+    - olive, lemon, lime, cherry, pearl onion,  
+  - muddled fruits
+    - cherry, lemon, lime, orange
+
+### Possible taste types
+  - salty, cold, hot, strong, mild, sweet,
+  - Match tastes to specific ingredients
+    - are there qualifiers?, like:
+      - strong or weak flavor?
+        coffee = strong, scotch = strong, vodka = weak, tea = weak
+      - more or less intoxicating drinks?
+        - glug = stiff, slug = normal and splash = weak??
+  - so each 
+
+
+
+
+
+
+## Stretch Goals?
+
+***
 
 Example questions:
 
